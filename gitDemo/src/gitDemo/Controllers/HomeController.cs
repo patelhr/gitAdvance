@@ -18,6 +18,17 @@ namespace gitDemo.Controllers
             ViewData["Message"] = "Your application description page.";
 
             return View();
+
+            try
+            {
+
+            }
+            catch(Execption e)
+            {
+
+            }
+
+
         }
 
         public IActionResult Contact()
